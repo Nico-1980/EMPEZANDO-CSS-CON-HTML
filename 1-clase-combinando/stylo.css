@@ -1,3 +1,66 @@
 body{
-    background-color: rgb(109, 188, 207);
+    background-color: rgb(22, 52, 59);
+} 
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+} 
+body{ 
+    font-size: xx-large;
+}
+
+Selector{ 
+    propiedad: valor; 
+    propiedad: valor; 
+}
+/* Selector: Es el elemento al que vamos aplicar estilos. 
+Propiedad: lo que vamos a cambiar. 
+valor: Es el nuevo significado que le daremos a la propiedad. 
+Aal conjunto de selector+declaraciones se lo denomina "regla" 
+Exinten: 
+ selectores simples:
+           selectores elementales 
+                Selector Universal: *
+                Selector de etiqueta: Nombrenomas
+
+           selectores de atributo: 
+           id: del elemento
+           clase: del elemento
+           Otros atributos.
+Selectores compuestos: 
+           Selectores agrupados 
+           Selectores combinados 
+           Spsedolases - Pseudoelementos 
+
+*/    
+/* 
+*{background-color: brown;} Selector universal ejemplo 
+
+h1{
+    background-color: blue;
+}  
+p{
+    background-color: aqua;
+}  */
+
+/* ejemplos de selector de etiqueta. No son lo más recomendable para usar, a diferencia, de los selectores de atributos que si son recomendables */ 
+
+ /* #title{
+     background-color: lightgreen;
+  }      */
+  /*  <h1 id="title"> así empieza en la página de html. No se recomienda tal método, es engorroso al haber muchas lineas. */    
+/* 
+  .title{
+      background-color: bisque;
+  }
+  .paco{
+      background-color: blueviolet;
+  }
+  .merlu{
+      background-color: aquamarine; 
+  } */
+  /* Esta es la mejor manera para usar */  
+
+.letras{
+  background-color: blue;
 }
